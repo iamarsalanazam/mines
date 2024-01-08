@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main{
+  display: flex;
+  width: 450px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  /* background-image: url('./assets/head.png'); */
+}
+.card{
+  width: 80px;
+  height: 80px;
+  background-color: #656a75;
+  margin: 5px;
+}
+.card img{
+  background-position: center;
+  background-size: cover;
+}
+.notMine{
+  background-image: url('./assets/gems.webp');
+  background-position: center;
+  background-size: contain;
+  background-color: #390e71;
+  pointer-events:none;
+}
+.mines{
+  background-image: url('./assets/mines.webp');
+  background-position: center;
+  background-size: contain;
+  background-color: #656a75;
+  pointer-events:none;
+}
+
